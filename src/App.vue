@@ -107,10 +107,8 @@ body {
 }
 
 #app {
-  background: #0f0c29;
   background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
   background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
-  transition: 0.4s;
 }
 
 #app.warm {
