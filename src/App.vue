@@ -103,14 +103,15 @@ body {
 }
 
 #app {
-  background-image: url("./assets/cold-bg.jpg");
-  background-size: contain;
-  background-position: bottom;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
   transition: 0.4s;
 }
 
 #app.warm {
-  background-image: url("./assets/warm-bg.jpg");
+  background: -webkit-linear-gradient(to bottom, #240b36, #c31432);
+  background: linear-gradient(to bottom, #240b36, #c31432);
 }
 
 main {
