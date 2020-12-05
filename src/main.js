@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import 'dotenv/config' 
+import 'dotenv/config'
+import VueMeta from 'vue-meta'
 
-Vue.config.productionTip = false
+Vue.use(VueMeta);
 
 new Vue({
   render: h => h(App),

@@ -34,6 +34,10 @@
 <script>
 export default {
   name: "App",
+  metaInfo: {
+    title: "Weather",
+    
+  },
   data() {
     return {
       api_key: process.env.VUE_APP_API_KEY,
